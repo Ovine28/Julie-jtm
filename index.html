@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site train 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+        *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'poppinsmedium';
+
+    }
+
+    header{
+        background-image:linear-gradient(rgb(0,0,0,0.6),rgba(0,0,0,0.6)), url(./image/wp6746829.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .logo a{
+        color: #fff;
+        padding: 0px 20px;
+        border: 1px solid #fff;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 900;
+        text-shadow: rgba(0, 0, 0, 0.7);
+    }
+
+    .logo span{
+        color: rgb(238, 56, 11) ;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    ul{
+        list-style: none;
+        float: right;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        margin: 10px;
+        font-weight: 500;
+        transition: 0.6s ease;
+    }
+
+    ul li a:hover{
+        background: #fff;
+        color: #000;
+    }
+
+    ul li.active a{
+        background: #fff;
+        color: #000;
+    }
+
+    .principale{
+        max-width: 114rem;
+        margin: 0 auto;
+    }
+
+    .titre{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .titre h1{
+        color: #fff;
+        font-size: 70px;
+    }
+
+    .bouton{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .bouton a{
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid #fff;
+        padding: 10px 20px;
+    }
+
+    .btn{
+        transition: 0.6s ease
+    }
+
+    .btn:hover{
+        background-color: #fff;
+        color: #000;
+    }
+</style>
+<body>
+    <header>
+        <div class="principale">
+            <div class="logo">
+                <a href="#">Logo<span>Y</span></a>
+            </div>
+        </div>
+        <ul>
+            <li class="active">
+                <a href="#">Accueil</a>
+            </li>
+            <li>
+                <a href="#">Service</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">A propos de nous</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+
+
+        </ul>
+    </div>
+    <div class="titre">
+        <h1>Veux-tu qu'on reste amoureux ?</h1>
+</div>
+<div class="bouton">
+<a href="#" class="btn">OUI</a>
+<a href="#" class="btn">NON</a>
+</div>
+    </header>
+</body>
+</html>
